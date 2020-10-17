@@ -1,0 +1,48 @@
+
+@media screen and (min-width:500px) {
+    .hero{
+        height:10rem;
+        width:20rem;
+    }
+
+    .LandingLeftFlex{
+        display:flex;
+        flex-direction: column;
+        margin-top: 40rem;
+        margin-left: 10rem;
+    }
+
+
+
+}
+.Hero{
+    height: 20rem;
+    width: 35rem;
+
+}
+
+.LandingLeftFlex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.LandingRightFlex{
+    display:flex;
+    justify-self: right;
+    margin-left: 50rem;
+    margin-top: -9rem;
+}
+
+#NameId{
+    font-weight: 900;
+    font-size: 3rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+#StudentId{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
