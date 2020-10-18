@@ -1,0 +1,37 @@
+#ProjectPage {
+  display: flex;
+  justify-content: center;
+}
+#buttonWrap {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10%;
+}
+#Link1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+#Link2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+#Link3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+#Link4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  min-width: 4rem;
+}
