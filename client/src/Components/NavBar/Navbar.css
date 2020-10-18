@@ -1,80 +1,78 @@
 #navbar {
-    background:linear-gradient(#22c1c3,#fdbb2d);
-    height:10rem;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+  background: linear-gradient(#31a8aa, #ce8f31);
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
-#menu-bars{
-    margin-left: 2.5rem;
-    font-size: 20px;
-    background: none;
-    padding-top:5rem;
+#menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
 }
 
-#nav-menu{
-    background-color: coral;
-    width:250px;
-    height:10rem;
-    display:flex;
-    justify-content: center;
-    position: fixed;
-    top:5rem;
-    left:-100%;
-    transition: 850ms;
-   
+#nav-menu {
+
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: -100%;
+  top:0;
+  transition: 850ms;
 }
 
-#nav-menu-active{
-    left:0;
-    transition:350ms;
-    padding:2rem;
-    top:5rem
+#nav-menu-active {
+  left: 0rem;
+  transition: 350ms;
+  padding: 2rem;
+  z-index: 5rem;
+  
 }
 
-#nav-text{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 8px 0px 8px 16px;
-    list-style: none;
-    height:60px;
-    top:5rem;
+#nav-text {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  height: 60px;
+  color: #fff;
+  background:darkslategrey;
 }
 
 #nav-text a {
-    text-decoration: none;
-    color: black;
-    font-size: 1rem;
-    width:95%;
-    height:100%;
-    display: flex;
-    flex-direction: row;
-    padding:0 16px;
-    border-radius: 4px;
-    font-weight: 900;
-    top: 5rem;
-
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding:  0 16px;
+  border-radius: 4px;
+  
 }
 
-#nav-text a:hover{
-    background-color: #1a83ff;
+#nav-text a:hover {
+  background-color: #1a83ff;
 }
 
-#nav-menu-items{
-    width:100%;
-    top:5rem;
+#nav-menu-items {
+  width: 100%;
 }
 
 #navbar-toggle {
-    background-color: black;
-    widows: 100%;
-    display: flex;
-    justify-content: start;
-    height:80px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  height: 80px;
+  align-items: center;
 }
 
-span{
-    margin-left: 16px;
-}
+span {
+    margin-left: 4rem;
+  }
+  

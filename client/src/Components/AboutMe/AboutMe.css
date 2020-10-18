@@ -1,0 +1,35 @@
+#AboutPage {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.profileImageLeft {
+  display: flex;
+  max-width: 40%;
+}
+
+.AboutParagraph {
+  display: flex;
+  flex-direction: column;
+}
+
+.headShot {
+  display: flex;
+  height: 110%;
+  width:25rem;
+  margin-left: 10rem;
+  border: solid 3px black;
+  
+}
+
+#About {
+  font-weight: 900;
+}
+
+#Introduction {
+  display: flex;
+  font-size: 1.2rem;
+  max-width: 40rem;
+  line-height: 1.5;
+}

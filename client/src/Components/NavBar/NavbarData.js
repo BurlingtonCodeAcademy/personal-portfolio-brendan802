@@ -7,35 +7,35 @@ export const NavbarData = [
     {
         title: 'Home',
         path: '/',
-        icon:<AiIcons.AiFillHome/>,
+        icon:<FaIcons.FaCampground/>,
         cName: 'nav-text'
 
     },
     {
         title: 'About Me',
         path: '/AboutMe',
-        icon:<AiIcons.AiFillHome/>,
+        icon:<FaIcons.FaCloudSun/>,
         cName: 'nav-text'
 
     },
     {
-        title: 'Projects Page',
-        path: '/ProjectsPage',
+        title: 'Projects',
+        path: '/ProjectPage',
         icon:<IoIcons.IoMdPeople/>,
         cName: 'nav-text'
 
     },
     {
-        title: 'Resume/Work',
+        title: 'Work',
         path: '/WorkHistory',
-        icon:<IoIcons.IoIosPaper/>,
+        icon:<FaIcons.FaBalanceScale/>,
         cName: 'nav-text'
 
     },
     {
-        title: 'Hobbies',
-        path: '/',
-        icon:<AiIcons.AiFillHome/>,
+        title: 'Interests',
+        path: '/Hobbies',
+        icon:<FaIcons.FaPastafarianism/>,
         cName: 'nav-text'
 
     },

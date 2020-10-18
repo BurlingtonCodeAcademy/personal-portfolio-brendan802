@@ -1,17 +1,22 @@
 #ProjectPage {
   display: flex;
   justify-content: center;
+  height:55vh;
+  
 }
 #buttonWrap {
   display: flex;
   flex-direction: row;
   margin-right: 10%;
+  margin-top: 5%;
+  
 }
 #Link1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
+  
 }
 
 #Link2 {

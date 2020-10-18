@@ -18,20 +18,22 @@ function Navbar() {
         <ul id="nav-menu-items">
           <li id="navbar-toggle">
             <Link to="#" id="menu-bars">
-              <AiIcons.AiOutlineClose />
             </Link>
           </li>
+  
           {NavbarData.map((item, index) => {
             return (
               <li key={index} id={item.cName}>
                 <Link to={item.path}>
                   {item.icon}
                   <span>{item.title}</span>
-                </Link>
+                </Link> 
               </li>
             );
           })}
+
         </ul>
+       
       </nav>
     </div>
   );

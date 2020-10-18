@@ -1,48 +1,64 @@
+@media screen and (min-width: 500px) {
+  .hero {
+    height: 10rem;
+    width: 20rem;
+  }
 
-@media screen and (min-width:500px) {
-    .hero{
-        height:10rem;
-        width:20rem;
-    }
-
-    .LandingLeftFlex{
-        display:flex;
-        flex-direction: column;
-        margin-top: 40rem;
-        margin-left: 10rem;
-    }
-
-
-
-}
-.Hero{
-    height: 20rem;
-    width: 35rem;
-
-}
-
-.LandingLeftFlex{
-    display:flex;
+  .LandingLeftFlex {
+    display: flex;
     flex-direction: column;
-    margin-top: 10rem;
     margin-left: 10rem;
+  }
+}
+#Hero {
+  display: flex;
+  margin-left: 110%;
+  margin-top: -35%;
+  height: 75%;
+  width: 75%;
+  border: solid 4px black;
 }
 
-.LandingRightFlex{
-    display:flex;
-    justify-self: right;
-    margin-left: 50rem;
-    margin-top: -9rem;
+#WelcomeId {
+  font-size: 2.1rem;
+  margin-top: 30%;
 }
 
-#NameId{
-    font-weight: 900;
-    font-size: 3rem;
-    padding-top:1rem;
-    padding-bottom:1rem;
+#NameId {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-top: -40%;
 }
 
-#StudentId{
-    font-weight: 500;
-    font-size: 1.5rem;
+#StudentId {
+  font-size: 2rem;
+  margin-top: -40%;
+}
+
+.LandingLeftFlex {
+  display: flex;
+  width: 40%;
+}
+
+.LandingRightFlex {
+  width: 50%;
+}
+
+#Cv
+{
+ 
+  height: min-content;
+  text-decoration: none;
+  font-size: 1rem;
+  max-height: 3rem;
+  border-style: solid 2px black;
+  background-color: #fff;
+  font-weight: 700;
+}
+
+#cv:hover,
+button:hover {
+  background-color: coral;
+  border-radius: 4px;
+  text-decoration: none;
 }
