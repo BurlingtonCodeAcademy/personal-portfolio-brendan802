@@ -13,14 +13,13 @@
 }
 
 #nav-menu {
-
   width: 250px;
   height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
   left: -100%;
-  top:0;
+  top: 0;
   transition: 850ms;
 }
 
@@ -29,7 +28,6 @@
   transition: 350ms;
   padding: 2rem;
   z-index: 5rem;
-  
 }
 
 #nav-text {
@@ -40,7 +38,7 @@
   list-style: none;
   height: 60px;
   color: #fff;
-  background:darkslategrey;
+  background: darkslategrey;
 }
 
 #nav-text a {
@@ -51,9 +49,8 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding:  0 16px;
+  padding: 0 16px;
   border-radius: 4px;
-  
 }
 
 #nav-text a:hover {
@@ -73,6 +70,5 @@
 }
 
 span {
-    margin-left: 4rem;
-  }
-  
+  margin-left: 4rem;
+}

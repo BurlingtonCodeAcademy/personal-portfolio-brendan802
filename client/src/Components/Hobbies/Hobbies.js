@@ -15,8 +15,6 @@ function Hobbies() {
         months. Transitioning out of almost a decade in the culinary field, I'm
         hoping to broaden my career horizons by learning software development.
       </p4>
-  
-      
 
       {/*text container belo*/}
       <div id="ImageContainer">

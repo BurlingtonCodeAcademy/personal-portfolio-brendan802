@@ -26,6 +26,7 @@ function AboutMe() {
           ethic was greatly enriched.
           <br></br>
           {/* continuing of about me paragraphs/interests/story*/}
+           {/* PAdding is weird, cant quite get this text to have margin left */}
           <br></br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An aspiring Full-Stack
           Engineer, I'm currently attending Burlington Code Academy's Software

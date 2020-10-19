@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { NavbarData } from "./NavbarData";
 
 function Navbar() {
+   {/* Setting state on sidebar to aid in open/close*/}
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar);
@@ -14,13 +15,15 @@ function Navbar() {
       <Link to="#" id="menu-bars">
         <FaIcons.FaBars onClick={showSidebar} />
       </Link>
+       {/*Menu Toggle active/off . Menu Items will display or slide left*/}
       <nav id={sidebar ? "nav-menu active" : "nav-menu"}>
         <ul id="nav-menu-items">
           <li id="navbar-toggle">
+             {/*Menu Bar Icon */}
             <Link to="#" id="menu-bars">
             </Link>
           </li>
-  
+       {/*Mapping over menu data to retrieve item  /path */}
           {NavbarData.map((item, index) => {
             return (
               <li key={index} id={item.cName}>
@@ -31,9 +34,7 @@ function Navbar() {
               </li>
             );
           })}
-
         </ul>
-       
       </nav>
     </div>
   );

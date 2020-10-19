@@ -50,10 +50,18 @@ function WorkHistory() {
           <br></br>
         </div>
         <div className="Skills-Pdf">
-        <button id="ResumeDownload">
-          <a href="/Resume2020.pdf" download>Resume Download</a>
-        </button>
-      </div>
+          <button id="ResumeDownload">
+            <a href="/Resume2020.pdf" download>
+              Resume Download
+            </a>
+          </button>
+          <button id="LinkedIn">
+            <a href="https://www.linkedin.com/in/t-brendan-devine-50573b77/">
+              {" "}
+              Linked In
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );

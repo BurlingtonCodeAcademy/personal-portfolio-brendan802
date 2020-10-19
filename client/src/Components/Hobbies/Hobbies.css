@@ -1,82 +1,77 @@
-.hobbies{
-    height:70vh;
-    overflow: hidden;
-    width:40vw;
-    margin-top: 10%;
-    
+.hobbies {
+  height: 70vh;
+  overflow: hidden;
+  width: 40vw;
+  margin-top: 10%;
 }
-p4{
-    margin-top: 5rem;
-    padding-left: 10%;
+p4 {
+  margin-top: 5rem;
+  padding-left: 10%;
 }
-#hobbiesInterests{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    max-width:60rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 2;
-   
-   
+#hobbiesInterests {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 60rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2;
 }
-#ImageContainer{
-    position: absolute;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: -40%;
-    max-width: 70rem;
-    margin-left: 50%;
+#ImageContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: -40%;
+  max-width: 70rem;
+  margin-left: 50%;
 }
 
-#image1{
-    height:19rem;
-    width:30rem;
-    border:2px solid black;
-    margin:1rem;
+#image1 {
+  height: 19rem;
+  width: 30rem;
+  border: 2px solid black;
+  margin: 1rem;
 }
-#image2{
-    height:19rem;
-    width:20rem;
-    border:2px solid black;
-    margin:1rem;
+#image2 {
+  height: 19rem;
+  width: 20rem;
+  border: 2px solid black;
+  margin: 1rem;
 }
-#image3{
-    height:15rem;
-    width:25rem;
-    border:2px solid black;
-    margin:1rem;
+#image3 {
+  height: 15rem;
+  width: 25rem;
+  border: 2px solid black;
+  margin: 1rem;
 }
-#image4{
-    height:15rem;
-    width:25rem;
-    border:2px solid black;
-    margin:1rem;
+#image4 {
+  height: 15rem;
+  width: 25rem;
+  border: 2px solid black;
+  margin: 1rem;
 }
-#image5{
-    height:20rem;
-    width:25rem;
-    border:2px solid black;
-    margin:1rem;
+#image5 {
+  height: 20rem;
+  width: 25rem;
+  border: 2px solid black;
+  margin: 1rem;
 }
-#image6{
-    height:18rem;
-    width:18rem;
-    border:2px solid black;
-    margin:1rem;
+#image6 {
+  height: 18rem;
+  width: 18rem;
+  border: 2px solid black;
+  margin: 1rem;
 }
-#image7{
-    height:17rem;
-    width:20rem;
-    border:2px solid black;
-    margin:1rem;
+#image7 {
+  height: 17rem;
+  width: 20rem;
+  border: 2px solid black;
+  margin: 1rem;
 }
-#image8{
-    height:20rem;
-    width:24rem;
-    border:2px solid black;
-    margin:1rem;
-    
+#image8 {
+  height: 20rem;
+  width: 24rem;
+  border: 2px solid black;
+  margin: 1rem;
 }
-

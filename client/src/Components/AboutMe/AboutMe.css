@@ -17,10 +17,9 @@
 .headShot {
   display: flex;
   height: 110%;
-  width:25rem;
+  width: 25rem;
   margin-left: 10rem;
   border: solid 3px black;
-  
 }
 
 #About {

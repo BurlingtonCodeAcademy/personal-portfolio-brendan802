@@ -1,6 +1,5 @@
-*{
-    text-decoration: none;
-    
+* {
+  text-decoration: none;
 }
 
 .WorkHistoryPage {
@@ -55,17 +54,16 @@ p2 {
   height: 100vh;
 }
 
-#ResumeDownload{
-    text-decoration: none;
-    display:flex;
-    width:12rem;
-    height:7rem;
-    padding:1rem;
-    font-size: 1.5rem;
-    justify-content: center;
-    margin-top: 20rem;
-    margin-right:10rem;
-    
+#ResumeDownload {
+  text-decoration: none;
+  display: flex;
+  width: 12rem;
+  height: 7rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  justify-content: center;
+  margin-top: 20rem;
+  margin-right: 10rem;
 }
 
 p3 {
@@ -74,4 +72,15 @@ p3 {
 
 #pTag {
   margin-top: 2rem;
+}
+
+#LinkedIn {
+  text-decoration: none;
+  display: flex;
+  width: 12rem;
+  height: 5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  justify-content: center;
+  margin-top: -15rem;
 }

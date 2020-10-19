@@ -8,6 +8,7 @@ import "./HeroImage.css";
 export default function HeroImage() {
   return (
     <div>
+      {/* Hello/Introduction/Need to these positioned better*/}
       <div className="LandingLeftFlex">
         <div id="textWrap">
           <h4 id="WelcomeId">Hello and Welcome To My Page</h4>
@@ -15,7 +16,7 @@ export default function HeroImage() {
           <h4 id="StudentId">Fullstack Developer Student</h4>
         </div>
       </div>
-     
+
       {/* Landing Page*/}
 
       <div className="LandingRightFlex">
