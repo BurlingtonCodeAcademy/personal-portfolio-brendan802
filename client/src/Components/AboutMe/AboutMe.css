@@ -1,19 +1,20 @@
+/*Large page layout, overall div*/
 #AboutPage {
   display: flex;
   justify-content: space-evenly;
   margin-top: 5rem;
 }
-
+/* container holding image*/
 .profileImageLeft {
   display: flex;
   max-width: 40%;
 }
-
+/*paragraph container flexbox*/
 .AboutParagraph {
   display: flex;
   flex-direction: column;
 }
-
+/*headshot styling/flexbox*/
 .headShot {
   display: flex;
   height: 110%;
@@ -25,7 +26,7 @@
 #About {
   font-weight: 900;
 }
-
+/*main text styling/introduction paragraphs*/
 #Introduction {
   display: flex;
   font-size: 1.2rem;

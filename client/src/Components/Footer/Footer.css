@@ -1,3 +1,4 @@
+/*footer layout*/
 #footerPage {
   margin-top: 5rem;
   display: flex;
@@ -7,20 +8,20 @@
   background: linear-gradient(#2b75a0, #dd830d);
   justify-content: center;
 }
-
+/*contact text*/
 #Contact {
   color: #fff;
   padding-top: 1.7rem;
   margin-left: -3rem;
 }
-
+/*github text*/
 #gitHub {
   color: #fff;
   display: flex;
   margin-top: 2%;
   font-size: 1.3rem;
 }
-
+/*p text style*/
 p {
   display: inline-block;
   padding: 2.5rem;

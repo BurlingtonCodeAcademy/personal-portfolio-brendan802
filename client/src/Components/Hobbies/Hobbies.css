@@ -1,13 +1,16 @@
+  /*full page layout*/
 .hobbies {
   height: 70vh;
   overflow: hidden;
   width: 40vw;
   margin-top: 10%;
 }
-p4 {
+ /*text margin and padding*/
+p {
   margin-top: 5rem;
   padding-left: 10%;
 }
+ /*text container holding the hobby text*/
 #hobbiesInterests {
   display: flex;
   flex-direction: column;
@@ -17,6 +20,7 @@ p4 {
   font-weight: 600;
   line-height: 2;
 }
+ /*flex row container holding images*/
 #ImageContainer {
   position: absolute;
   display: flex;
@@ -26,7 +30,7 @@ p4 {
   max-width: 70rem;
   margin-left: 50%;
 }
-
+ /*Sizing for all the images- mostly the same size a few alterations/border black on all*/
 #image1 {
   height: 19rem;
   width: 30rem;

@@ -1,35 +1,38 @@
+/*overall project page layout*/
 #ProjectPage {
   display: flex;
   justify-content: center;
   height: 55vh;
 }
+/*flex container holding buttons*/
 #buttonWrap {
   display: flex;
   flex-direction: row;
   margin-right: 10%;
   margin-top: 5%;
 }
+/*project 1*/
 #Link1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
 }
-
+/*project 2*/
 #Link2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
 }
-
+/*project 3*/
 #Link3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
 }
-
+/*project 4*/
 #Link4 {
   display: flex;
   justify-content: space-between;

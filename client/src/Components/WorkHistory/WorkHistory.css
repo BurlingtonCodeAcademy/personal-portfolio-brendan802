@@ -1,32 +1,33 @@
 * {
   text-decoration: none;
 }
-
+/*full page container*/
 .WorkHistoryPage {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
+/*flex container*/
 .WebResume {
   display: flex;
   height: 60vh;
   width: 100vw;
 }
-
+/*large text styling*/
 #CareerGoals {
   margin-top: 3rem;
   font-weight: 900;
   width: 40vw;
   position: relative;
 }
-p2 {
+p {
   color: black;
   font-size: 1.2rem;
   font-weight: 900;
   line-height: 2;
 }
-
+/* styling of career/skill list*/
 #List {
   display: flex;
   color: black;
@@ -39,13 +40,13 @@ p2 {
   height: 50vh;
   max-width: 35rem;
 }
-
+/* container containing employment history text*/
 #employmentHistory {
   display: flex;
   margin-left: 10%;
   margin-top: 10%;
 }
-
+/*wrap container of employment history*/
 #wrap {
   max-height: 30rem;
   margin-top: 0rem;
@@ -53,7 +54,7 @@ p2 {
   width: 60%;
   height: 100vh;
 }
-
+/*resume download button styling*/
 #ResumeDownload {
   text-decoration: none;
   display: flex;
@@ -66,14 +67,14 @@ p2 {
   margin-right: 10rem;
 }
 
-p3 {
+p {
   font-weight: 900;
 }
 
 #pTag {
   margin-top: 2rem;
 }
-
+/*Linked In Button styling*/
 #LinkedIn {
   text-decoration: none;
   display: flex;

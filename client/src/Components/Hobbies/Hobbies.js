@@ -7,16 +7,17 @@ import "./Hobbies.css";
 function Hobbies() {
   return (
     <div className="hobbies">
-      <p4 id="hobbiesInterests">
+        {/*text container below*/}
+      <p id="hobbiesInterests">
         My hobbies and interests include travel (obviously not in 2020!), hiking
         and exploring nature, playing guitar, and making delicious food for
         friends. I moved to Montana in 2016 and developed a deep passion for the
         sport of fly-fishing, which is how you'll find me outside of the winter
         months. Transitioning out of almost a decade in the culinary field, I'm
         hoping to broaden my career horizons by learning software development.
-      </p4>
+      </p>
 
-      {/*text container belo*/}
+      {/*hobby/interest image collection below*/}
       <div id="ImageContainer">
         <img
           id="image1"
