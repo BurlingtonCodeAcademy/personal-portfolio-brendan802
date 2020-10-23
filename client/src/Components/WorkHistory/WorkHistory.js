@@ -20,7 +20,7 @@ function WorkHistory() {
           <p>Proven Leadership Ability</p>
           <br></br>
           <br></br>
-          <p2>Developing Skills in JavaScript, HTML, and CSS</p>
+          <p>Developing Skills in JavaScript, HTML, and CSS</p>
           <br></br>
           <br></br>
         </div>
