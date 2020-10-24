@@ -1,0 +1,43 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    height:90%;
+  
+    
+}
+
+@media only screen and (max-width:700px) {
+    #navbar{
+        position: fixed;
+        width:100vw;
+    }
+
+    #footerPage{
+        width:100vw;
+        bottom:0rem;
+        position: fixed;
+        height:2rem;
+    }
+
+    .webResume{
+        font-size: 14px;
+    }
+    
+
+}
+
+@media screen and (min-width: 500px) {
+    .hero {
+      height: 10rem;
+      width: 20rem;
+    }
+  
+    .LandingLeftFlex {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10rem;
+    }
+
+}

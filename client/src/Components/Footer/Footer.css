@@ -1,0 +1,30 @@
+/*footer layout*/
+#footerPage {
+  margin-top: 5rem;
+  display: flex;
+  position: fixed;
+  height: 20rem;
+  width: 100vw;
+  background: linear-gradient(#2b75a0, #dd830d);
+  justify-content: center;
+}
+/*contact text*/
+#Contact {
+  color: #fff;
+  padding-top: 1.7rem;
+  margin-left: -3rem;
+}
+/*github text*/
+#gitHub {
+  color: #fff;
+  display: flex;
+  margin-top: 7%;
+  font-size: 1.1rem;
+}
+/*p text style*/
+p {
+  display: inline-block;
+  padding: 2.5rem;
+  font-size: 1.2rem;
+  color: #fff;
+}

@@ -1,0 +1,66 @@
+/*media query*/
+@media screen and (min-width: 500px) {
+  .hero {
+    height: 10rem;
+    width: 20rem;
+  }
+
+  .LandingLeftFlex {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+  }
+}
+/*snow image*/
+#Hero {
+  display: flex;
+  margin-left: 110%;
+  margin-top: -35%;
+  height: 75%;
+  width: 75%;
+  border: solid 4px black;
+}
+/*text left of image*/
+#WelcomeId {
+  font-size: 2.1rem;
+  margin-top: 30%;
+}
+/*text left of image*/
+#NameId {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-top: -40%;
+}
+/*text left of image*/
+#StudentId {
+  font-size: 2rem;
+  margin-top: -40%;
+}
+/*left page flexbox*/
+.LandingLeftFlex {
+  display: flex;
+  width: 40%;
+}
+/*right page flexbox*/
+.LandingRightFlex {
+  width: 50%;
+}
+/*button styling*/
+#Cv
+{
+ 
+  height: min-content;
+  text-decoration: none;
+  font-size: 1rem;
+  max-height: 3rem;
+  border-style: solid 2px black;
+  background-color: #fff;
+  font-weight: 700;
+}
+/*button hover styling*/
+#cv:hover,
+button:hover {
+  background-color: coral;
+  border-radius: 4px;
+  text-decoration: none;
+}
