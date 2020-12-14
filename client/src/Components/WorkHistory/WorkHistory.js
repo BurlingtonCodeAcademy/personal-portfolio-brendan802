@@ -11,43 +11,25 @@ function WorkHistory() {
             Highly Driven Individual Seeking An Employment Transition from the
             Culinary to Software Development Field
           </p>
-          <br></br>
-          <br></br>
-          <br></br>
           <p id="pTag">Conflict Resolution and Communication Skills</p>
-          <br></br>
-          <br></br>
           <p>Proven Leadership Ability</p>
-          <br></br>
-          <br></br>
           <p>Developing Skills in JavaScript, HTML, and CSS</p>
-          <br></br>
-          <br></br>
         </div>
       </div>
       {/* List of most recent workplace titles */}
       <div id="employmentHistory">
         <div id="wrap">
           <p>Sous Chef : The Pitcher Inn (Nov 2018-September 2020)</p>
-          <br></br>
-          <br></br>
           <p>
             Chef De Cuisine: The Round Barn Farm and Inn (March 2017-October
             2018)
           </p>
-          <br></br>
-          <br></br>
           <p>
             Garde Manger Cook : The Common Man Restaurant (November 2016-October
             2017)
           </p>
-          <br></br>
-          <br></br>
-          <p>
-            Private Chef: Bighorn River Lodge, Montana (May 2015-May 2016)
-          </p>
-          <br></br>
-          <br></br>
+
+          <p>Private Chef: Bighorn River Lodge, Montana (May 2015-May 2016)</p>
         </div>
         {/*Resume Download Button and Linked In Button */}
         <div className="Skills-Pdf">

@@ -16,15 +16,17 @@
 }
 /*github text*/
 #gitHub {
-  color: #fff;
+  font-weight: 900;
+  color:black;
   display: flex;
-  margin-top: 7%;
-  font-size: 1.1rem;
+  margin-top: 1.6%;
+  font-size: 1.5rem;
+  margin-right: 2%;
 }
 /*p text style*/
 p {
   display: inline-block;
   padding: 2.5rem;
   font-size: 1.2rem;
-  color: #fff;
+  color: black;
 }
